@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Google maps</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card *ngFor="let imovel of imoveis">
+    <div class="mapa">
+      <img src="{{ imovel.mapa }}">
+    </div>
+    <ion-item>
+      <h2 text-wrap>{{ imovel.nome }}</h2>
+      <p>{{ imovel.valor | currency:'BRL' }}</p>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

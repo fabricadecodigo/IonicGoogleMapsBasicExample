@@ -1,0 +1,8 @@
+{
+  "name": "googlemapsvideo",
+  "app_id": "e68de612",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

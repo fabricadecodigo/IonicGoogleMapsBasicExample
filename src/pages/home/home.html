@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Google Maps
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor="let page of pages" (click)="openPage(page)">
+      {{ page.title }}
+    </button>
+  </ion-list>
+</ion-content>

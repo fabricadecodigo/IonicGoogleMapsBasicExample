@@ -3,6 +3,10 @@ import { NavController } from 'ionic-angular';
 
 declare var google;
 
+/**
+ * Para obter a chave
+ * https://developers.google.com/maps/documentation/static-maps/get-api-key?hl=pt-br
+ */
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'

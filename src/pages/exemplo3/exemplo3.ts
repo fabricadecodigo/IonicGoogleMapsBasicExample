@@ -6,6 +6,7 @@ declare var google;
 
 /**
  * https://developers.google.com/maps/documentation/javascript/adding-a-google-map
+ * https://ionicframework.com/docs/native/geolocation/
  */
 @IonicPage()
 @Component({

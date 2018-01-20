@@ -16,11 +16,12 @@ export class HomePage {
     this.pages = [
       { title: 'Exemplo 1', component: 'Exemplo1Page' },
       { title: 'Exemplo 2', component: 'Exemplo2Page' },
-      { title: 'Exemplo 3', component: 'Exemplo3Page' }
+      { title: 'Exemplo 3', component: 'Exemplo3Page' },
+      { title: 'Exemplo 4', component: 'Exemplo4Page' }
     ];
   }
 
   openPage(page: any) {
-    this.navCtrl.setRoot(page.component);
+    this.navCtrl.push(page.component);
   }
 }

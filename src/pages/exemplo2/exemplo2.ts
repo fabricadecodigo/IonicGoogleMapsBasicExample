@@ -17,15 +17,11 @@ export class Exemplo2Page {
   constructor() { }
 
   ionViewDidLoad() {
-    this.getWithManualCoordinate();
-  }
-
-  getWithManualCoordinate() {
     const position = new google.maps.LatLng(-21.763409, -43.349034);
 
     const mapOptions = {
       zoom: 18,
-      center: new google.maps.LatLng(-21.763409, -43.349034),
+      center: position,
       //disableDefaultUI: true
     }
 

@@ -18,8 +18,8 @@ export class Exemplo3Page {
 
   constructor(private geolocation: Geolocation) { }
 
-    ionViewDidLoad() {
-      this.geolocation.getCurrentPosition()
+  ionViewDidLoad() {
+    this.geolocation.getCurrentPosition()
       .then((resp) => {
         const position = new google.maps.LatLng(resp.coords.latitude, resp.coords.longitude);
 
@@ -38,5 +38,5 @@ export class Exemplo3Page {
       }).catch((error) => {
         console.log('Erro ao recuperar sua posição', error);
       });
-    }
+  }
 }

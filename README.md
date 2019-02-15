@@ -1,5 +1,6 @@
 # IonicGoogleMapsBasicExample
 A basic example of integration between Ionic and Google Maps
+
 **Updated with Ionic 4**
 
 ## How to run this example
